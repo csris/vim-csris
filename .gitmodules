@@ -10,3 +10,6 @@
 [submodule "start/vim-javascript"]
 	path = start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "start/vim-jsx-pretty"]
+	path = start/vim-jsx-pretty
+	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
