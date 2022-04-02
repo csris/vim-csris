@@ -1,0 +1,3 @@
+[submodule "start/vim-asciidoctor"]
+	path = start/vim-asciidoctor
+	url = https://github.com/habamax/vim-asciidoctor.git
