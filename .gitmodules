@@ -7,3 +7,6 @@
 [submodule "start/rust.vim"]
 	path = start/rust.vim
 	url = https://github.com/rust-lang/rust.vim
+[submodule "start/vim-javascript"]
+	path = start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
