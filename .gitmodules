@@ -4,3 +4,6 @@
 [submodule "start/typescript-vim"]
 	path = start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "start/rust.vim"]
+	path = start/rust.vim
+	url = https://github.com/rust-lang/rust.vim
