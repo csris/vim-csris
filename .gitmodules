@@ -1,3 +1,6 @@
 [submodule "start/vim-asciidoctor"]
 	path = start/vim-asciidoctor
 	url = https://github.com/habamax/vim-asciidoctor.git
+[submodule "start/typescript-vim"]
+	path = start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
