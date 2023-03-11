@@ -16,3 +16,6 @@
 [submodule "start/vim-jsx-typescript"]
 	path = start/vim-jsx-typescript
 	url = git@github.com:peitalin/vim-jsx-typescript.git
+[submodule "start/vim-python-pep8-indent"]
+	path = start/vim-python-pep8-indent
+	url = https://github.com/Vimjas/vim-python-pep8-indent.git
