@@ -19,3 +19,6 @@
 [submodule "start/vim-python-pep8-indent"]
 	path = start/vim-python-pep8-indent
 	url = https://github.com/Vimjas/vim-python-pep8-indent.git
+[submodule "start/coc.nvim"]
+	path = start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
