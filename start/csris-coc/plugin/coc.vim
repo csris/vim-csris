@@ -1,5 +1,11 @@
 " Common CoC configuration for language buffers.
 
+call coc#config('rust-analyzer.inlayHints.chainingHints.enable', v:false)
+call coc#config('rust-analyzer.inlayHints.closureReturnTypeHints.enable', 'never')
+call coc#config('rust-analyzer.inlayHints.parameterHints.enable', v:false)
+call coc#config('rust-analyzer.inlayHints.typeHints.enable', v:false)
+call coc#config('suggest.autoTrigger', 'none')
+
 function! s:setup_coc_buffer() abort
     " Check if CoC is loaded
     if !exists(':CocInfo')
