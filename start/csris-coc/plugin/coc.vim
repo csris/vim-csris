@@ -35,6 +35,7 @@ function! s:setup_coc_buffer() abort
 
     " Use \ca to invoke code actions.
     nmap <silent><buffer> <leader>ca <Plug>(coc-codeaction-cursor)
+    xmap <silent><buffer> <leader>ca <Plug>(coc-codeaction-selected)
 
     " Support b:undo_ftplugin.
     let l:undo_coc = 'setlocal tagfunc<'
