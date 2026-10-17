@@ -19,7 +19,7 @@ function! s:setup_coc_buffer() abort
     nnoremap <silent><buffer> K :call <SID>show_documentation()<CR>
 
     " Use <C-Space> to trigger completion.
-    inoremap <silent><buffer><expr> <C-Space> coc#refresh()
+    inoremap <silent><buffer><expr> <C-@> coc#refresh()
 
     " Use gy, gi, and gr to go to type definitions, impls, and references.
     nmap <silent><buffer> gy <Plug>(coc-type-definition)
